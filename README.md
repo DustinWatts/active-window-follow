@@ -9,6 +9,7 @@ Prerequisites:
  - Node.js for running the application
 
 Install using:
+
 `npm install`
 
 # Usage
