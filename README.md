@@ -15,14 +15,23 @@ Install using:
 
 Select the right COM port depending on your OS:
 
-`const port = new SerialPort('/dev/tty.SLAB_USBtoUART', {
+```
+const port = new SerialPort('/dev/tty.SLAB_USBtoUART', {
   baudRate: 115200,
-});`
+});
+```
 
 use `setInterval(whatIsActive, pollinterval);` to console log the active window so you can see what the window name or class is called.
 
 on Windows use windowClass as the active application and on macOS use windowName:
-`currentactive = result.windowClass;` or `currentactive = result.windowNameif (currentactive != previousactive || previousactive === '') {
+
+`currentactive = result.windowClass;` or `currentactive = result.windowName`
+
+In the if statement you can check what the current active window is:
+
+```
+// Change this to fit your needs! These are CASE sensitive.
+  if (currentactive != previousactive || previousactive === '') {
     previousactive = currentactive;
     if (currentactive === 'Code.exe') {
       menu = 'menu1 ';
@@ -36,11 +45,7 @@ on Windows use windowClass as the active application and on macOS use windowName
       menu = 'menu5 ';
     } else {
       return;
-    };`
-
-In the if statement you can check what the current active window is:
-
-`
-
+    }
+```
 
 
