@@ -1,0 +1,15 @@
+{
+  "name": "activewindowfollow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-active-window": "git+https://github.com/nullxx/electron-active-window.git",
+    "serialport": "^9.2.0"
+  }
+}
