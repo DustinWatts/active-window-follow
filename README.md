@@ -57,6 +57,6 @@ In the if statement you can check what the current active window is:
 
 [NULLX](https://github.com/nullxx) for `electron-active-window`
 
-[Serialport] (https://github.com/serialport) for `serialport`
+[Serialport](https://github.com/serialport) for `serialport`
 
 
