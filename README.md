@@ -1,5 +1,5 @@
 # Active Window Follow for FreeTouchDeck
-NodeJS app that polls the active window and sends it to your FreeTouchDeck. Note: only usable with version ^0.9.14
+NodeJS app that polls the active window and sends it to your [FreeTouchDeck](https://github.com/DustinWatts/FreeTouchDeck). Note: only usable with version ^0.9.14
 of FreeTouchDeck.
 
 # Installation
